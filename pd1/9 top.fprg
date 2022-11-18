@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-18 10:49:09 &#214;S"/>
+        <attribute name="created" value="QVNVUztERVNLVE9QLTFFNVZTSjQ7MjAyMi0xMS0xODsxMDo0NDo1NyDDllM7Mjc4Nw=="/>
+        <attribute name="edited" value="QVNVUztERVNLVE9QLTFFNVZTSjQ7MjAyMi0xMS0xODsxMDo0OTowOSDDllM7MTsyODk3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, sayi, t" type="Integer" array="False" size=""/>
+            <assign variable="t" expression="0"/>
+            <for variable="i" start="100" end="200" direction="inc" step="1">
+                <if expression="i%9==0">
+                    <then>
+                        <output expression="i" newline="True"/>
+                        <assign variable="t" expression="t+i"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;toplamsa=&quot;&amp;t" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

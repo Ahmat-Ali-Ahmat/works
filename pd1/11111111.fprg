@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-18 10:44:49 &#214;S"/>
+        <attribute name="created" value="QVNVUztERVNLVE9QLTFFNVZTSjQ7MjAyMi0xMS0xODsxMDoyOToyNiDDllM7Mjc4Ng=="/>
+        <attribute name="edited" value="QVNVUztERVNLVE9QLTFFNVZTSjQ7MjAyMi0xMS0xODsxMDo0NDo0OSDDllM7MTsyODk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="f, i, n" type="Integer" array="False" size=""/>
+            <output expression="&quot;n sayisi girin&quot;" newline="True"/>
+            <input variable="n"/>
+            <for variable="f" start="1" end="n" direction="inc" step="1">
+                <assign variable="f" expression="f*10+1"/>
+            </for>
+            <output expression="f" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

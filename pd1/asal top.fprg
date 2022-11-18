@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-18 11:05:09 &#214;S"/>
+        <attribute name="created" value="QVNVUztERVNLVE9QLTFFNVZTSjQ7MjAyMi0xMS0xODsxMDo1Mzo1OSDDllM7Mjc4OQ=="/>
+        <attribute name="edited" value="QVNVUztERVNLVE9QLTFFNVZTSjQ7MjAyMi0xMS0xODsxMTowNTowOSDDllM7NzsyODk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, i, t, j" type="Integer" array="False" size=""/>
+            <output expression="&quot;sayi girin&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <for variable="i" start="2" end="sayi" direction="inc" step="1">
+                <assign variable="t" expression="0"/>
+                <for variable="j" start="1" end="i" direction="inc" step="1">
+                    <if expression="i%j==0">
+                        <then>
+                            <assign variable="t" expression="t+1"/>
+                        </then>
+                        <else/>
+                    </if>
+                </for>
+                <if expression="t==2">
+                    <then>
+                        <output expression="i" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-18 06:50:24 &#214;S"/>
+        <attribute name="created" value="QVNVUztERVNLVE9QLTFFNVZTSjQ7MjAyMi0xMS0xODswNjo0MjowNiDDllM7Mjc4NA=="/>
+        <attribute name="edited" value="QVNVUztERVNLVE9QLTFFNVZTSjQ7MjAyMi0xMS0xODswNjo1MDoyNCDDllM7MTsyODkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi1, sayi2, okek, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;sayi1 girin&quot;" newline="True"/>
+            <input variable="sayi1"/>
+            <output expression="&quot;sayi2 girin&quot;" newline="True"/>
+            <input variable="sayi2"/>
+            <for variable="i" start="1" end="sayi1*sayi2" direction="inc" step="1">
+                <if expression="i%sayi1==0&amp;&amp; i%sayi2==0">
+                    <then>
+                        <output expression="i" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

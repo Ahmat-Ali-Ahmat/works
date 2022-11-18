@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-17 09:37:21 &#214;S"/>
+        <attribute name="created" value="QVNVUztERVNLVE9QLTFFNVZTSjQ7MjAyMi0xMS0xNzswOTozMjo0NCDDllM7Mjc4Nw=="/>
+        <attribute name="edited" value="QVNVUztERVNLVE9QLTFFNVZTSjQ7MjAyMi0xMS0xNzswOTozNzoyMSDDllM7MTsyODk1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area, perimetre, lenght, weight" type="Integer" array="False" size=""/>
+            <output expression="&quot;put the lenght&quot;" newline="True"/>
+            <input variable="lenght"/>
+            <output expression="&quot;put the weight&quot;" newline="True"/>
+            <input variable="weight"/>
+            <assign variable="area" expression="lenght*weight"/>
+            <assign variable="perimetre" expression="(lenght+weight)*2"/>
+            <output expression="&quot;area=&quot;&amp;area&amp;&quot; perimetre=&quot;&amp;perimtre" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-18 10:21:07 &#214;S"/>
+        <attribute name="created" value="QVNVUztERVNLVE9QLTFFNVZTSjQ7MjAyMi0xMS0xODsxMDowNTowOSDDllM7Mjc4MQ=="/>
+        <attribute name="edited" value="QVNVUztERVNLVE9QLTFFNVZTSjQ7MjAyMi0xMS0xODsxMDoyMTowNyDDllM7MzsyODg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, s, i, j" type="Integer" array="False" size=""/>
+            <output expression="&quot;n sayisi girin&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="s" expression="1"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <for variable="j" start="1" end="i" direction="inc" step="1">
+                    <output expression="s" newline="True"/>
+                    <assign variable="s" expression="s+1"/>
+                </for>
+                <output expression="&quot;&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

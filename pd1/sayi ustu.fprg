@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-17 09:51:49 &#214;S"/>
+        <attribute name="created" value="QVNVUztERVNLVE9QLTFFNVZTSjQ7MjAyMi0xMS0xNzswOTo0NzowMSDDllM7Mjc4Ng=="/>
+        <attribute name="edited" value="QVNVUztERVNLVE9QLTFFNVZTSjQ7MjAyMi0xMS0xNzswOTo1MTo0OSDDllM7MTsyOTAx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, ustu, sonuc" type="Integer" array="False" size=""/>
+            <assign variable="sayi" expression="2"/>
+            <assign variable="ustu" expression="4"/>
+            <assign variable="sonuc" expression="sayi^ustu"/>
+            <output expression="sonuc" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-07 01:58:28 &#214;S"/>
+        <attribute name="created" value="QVNVUztERVNLVE9QLTFFNVZTSjQ7MjAyMi0xMS0wNzswMTozODozNSDDllM7Mjc4NA=="/>
+        <attribute name="edited" value="QVNVUztERVNLVE9QLTFFNVZTSjQ7MjAyMi0xMS0wNzswMTo1ODoyOCDDllM7MTsyODk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, D, X1, X2, X" type="Real" array="False" size=""/>
+            <output expression="&quot;a say&#305;s&#305; girin&quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="a!=0">
+                <then>
+                    <output expression="&quot;b say&#305;s&#305; girin &quot;" newline="True"/>
+                    <input variable="b"/>
+                    <if expression="b!=0">
+                        <then>
+                            <output expression="&quot;c say&#305;s&#305; girin &quot;" newline="True"/>
+                            <input variable="c"/>
+                            <if expression="c!=0">
+                                <then>
+                                    <assign variable="D" expression="b*b-4*a*c"/>
+                                    <if expression="D&lt;0">
+                                        <then>
+                                            <output expression="&quot; k&#246;k yoktur &quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="D&gt;0">
+                                                <then>
+                                                    <assign variable="X1" expression="(-b-((D)^0.5))/2*a"/>
+                                                    <assign variable="X2" expression="(-b+((D)^0.5))/2*a"/>
+                                                    <output expression="&quot;X1=&quot;&amp;X1 &amp;  &quot;  X2=&quot;&amp;X2" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <assign variable="X" expression="-b/2*a"/>
+                                                    <output expression="&quot;X=&quot;&amp;&amp;X" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </then>
+                                <else/>
+                            </if>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

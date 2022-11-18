@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-17 09:46:57 &#214;S"/>
+        <attribute name="created" value="QVNVUztERVNLVE9QLTFFNVZTSjQ7MjAyMi0xMS0xNzswOTo0MzowMSDDllM7Mjc4Mg=="/>
+        <attribute name="edited" value="QVNVUztERVNLVE9QLTFFNVZTSjQ7MjAyMi0xMS0xNzswOTo0Njo1NyDDllM7MTsyOTA0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sum, i" type="Integer" array="False" size=""/>
+            <assign variable="sum" expression="0"/>
+            <for variable="i" start="1" end="50" direction="inc" step="1">
+                <assign variable="sum" expression="sum+i"/>
+            </for>
+            <output expression="&quot;sum of first 50 natural number is equal to : &quot;&amp;sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
